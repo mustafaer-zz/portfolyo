@@ -1,0 +1,7 @@
+#IndexIgnore *.php *.png *.gif *.jpg *.jpeg *.ico *.txt *.htm *.html *.xml *.xsl *.swf *.cur *.fla *.pdf *.sql *.css
+<IfModule mod_rewrite.c> 
+RewriteEngine On RewriteBase / 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$  index.php?sayfa=$1 [L] 
+</IfModule> 

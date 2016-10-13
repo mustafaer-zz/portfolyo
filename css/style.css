@@ -1,0 +1,21 @@
+body{
+    padding-top: 50px;
+    background-color: #25ad63;
+}
+h1,p{
+    color: #eee;
+}
+a{
+    color: #fe2;
+}
+a:hover{
+    color: #eee;
+    text-decoration: none;
+}
+.siyah{
+    color: #000;
+}
+#prt{
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+}
